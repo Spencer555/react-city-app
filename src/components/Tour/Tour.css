@@ -1,0 +1,63 @@
+/* mainblack #222
+maingreen #82b340
+mainwhite #fff
+mainGrey #ececec */
+
+.img{
+    width:100%;
+    height:50%;
+    border-top-left-radius:0.8rem;
+    border-top-right-radius:0.8rem;
+    display:block
+}
+.tour{
+    background: #ececec;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+}
+
+.img-container{
+    position: relative;
+}
+.close-btn{
+    position :absolute;
+    display:block;
+    top:5%;
+    right:5%;
+    font-size: 2rem;
+    cursor:pointer;
+    transition: all 0.3s linear;
+    opacity:0;
+
+}
+.cls{
+    background-color: #222 ;
+    color :white;
+    font-size: large;
+}
+
+.img-container:hover .close-btn{
+    opacity:1
+}
+
+.tour-info{
+    padding:1rem 0.5rem;
+}
+.tour-info h3{
+    text-transform: uppercase;
+    color: #828282;
+}
+.tour-info h4{
+    text-transform: capitalize;
+    color: #222;
+    margin:0.2rem 0 0.6 0;
+}
+.tour-info h5{
+    text-transform: capitalize;
+}
+.tour-info h5 span{
+color: #828282;
+magin: 0.5rem;
+font-size: 1.2rem;
+cursor: pointer;
+}
